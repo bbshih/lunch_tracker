@@ -3,7 +3,7 @@ require 'spec_helper'
 feature 'Creating Lunches' do
 	before do
 		visit '/'
-		click_link 'New Lunch'
+		click_link 'Done eating fatty? Add your lunch'
 	end
 
 	scenario "can create a lunch" do
